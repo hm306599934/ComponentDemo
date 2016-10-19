@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF40ED7A1DB715B50056044C /* LCDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40ED791DB715B50056044C /* LCDevice.m */; };
+		BF40ED7D1DB715CF0056044C /* LCChannel.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40ED7C1DB715CF0056044C /* LCChannel.m */; };
+		BF40ED801DB715DB0056044C /* LCAp.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40ED7F1DB715DB0056044C /* LCAp.m */; };
+		BF40ED831DB715E90056044C /* LCZb.m in Sources */ = {isa = PBXBuildFile; fileRef = BF40ED821DB715E90056044C /* LCZb.m */; };
 		EA95A7631DB661EF00BE0B73 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95A7621DB661EF00BE0B73 /* main.m */; };
 		EA95A7661DB661EF00BE0B73 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95A7651DB661EF00BE0B73 /* AppDelegate.m */; };
 		EA95A7691DB661EF00BE0B73 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA95A7681DB661EF00BE0B73 /* ViewController.m */; };
@@ -39,6 +43,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF40ED751DB7157B0056044C /* LCBasicDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCBasicDevice.h; sourceTree = "<group>"; };
+		BF40ED781DB715B50056044C /* LCDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCDevice.h; sourceTree = "<group>"; };
+		BF40ED791DB715B50056044C /* LCDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCDevice.m; sourceTree = "<group>"; };
+		BF40ED7B1DB715CF0056044C /* LCChannel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCChannel.h; sourceTree = "<group>"; };
+		BF40ED7C1DB715CF0056044C /* LCChannel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCChannel.m; sourceTree = "<group>"; };
+		BF40ED7E1DB715DB0056044C /* LCAp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCAp.h; sourceTree = "<group>"; };
+		BF40ED7F1DB715DB0056044C /* LCAp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCAp.m; sourceTree = "<group>"; };
+		BF40ED811DB715E90056044C /* LCZb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCZb.h; sourceTree = "<group>"; };
+		BF40ED821DB715E90056044C /* LCZb.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCZb.m; sourceTree = "<group>"; };
 		EA95A75E1DB661EF00BE0B73 /* ComponentDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComponentDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA95A7621DB661EF00BE0B73 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA95A7641DB661EF00BE0B73 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -90,6 +103,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF40ED741DB7151B0056044C /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				BF40ED751DB7157B0056044C /* LCBasicDevice.h */,
+				BF40ED781DB715B50056044C /* LCDevice.h */,
+				BF40ED791DB715B50056044C /* LCDevice.m */,
+				BF40ED7B1DB715CF0056044C /* LCChannel.h */,
+				BF40ED7C1DB715CF0056044C /* LCChannel.m */,
+				BF40ED7E1DB715DB0056044C /* LCAp.h */,
+				BF40ED7F1DB715DB0056044C /* LCAp.m */,
+				BF40ED811DB715E90056044C /* LCZb.h */,
+				BF40ED821DB715E90056044C /* LCZb.m */,
+			);
+			name = Device;
+			sourceTree = "<group>";
+		};
 		EA95A7551DB661EF00BE0B73 = {
 			isa = PBXGroup;
 			children = (
@@ -113,6 +142,7 @@
 		EA95A7601DB661EF00BE0B73 /* ComponentDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BF40ED741DB7151B0056044C /* Device */,
 				EA95A7951DB663AF00BE0B73 /* New Group */,
 				EA95A7641DB661EF00BE0B73 /* AppDelegate.h */,
 				EA95A7651DB661EF00BE0B73 /* AppDelegate.m */,
@@ -308,7 +338,11 @@
 				EA95A7981DB6645100BE0B73 /* Vertex.m in Sources */,
 				EAE0B0981DB66A260069A3FA /* Mark.m in Sources */,
 				EA95A7661DB661EF00BE0B73 /* AppDelegate.m in Sources */,
+				BF40ED7A1DB715B50056044C /* LCDevice.m in Sources */,
+				BF40ED801DB715DB0056044C /* LCAp.m in Sources */,
 				EA95A79B1DB664A300BE0B73 /* Dot.m in Sources */,
+				BF40ED7D1DB715CF0056044C /* LCChannel.m in Sources */,
+				BF40ED831DB715E90056044C /* LCZb.m in Sources */,
 				EA95A7631DB661EF00BE0B73 /* main.m in Sources */,
 				EA95A79E1DB664B100BE0B73 /* Stroke.m in Sources */,
 			);
